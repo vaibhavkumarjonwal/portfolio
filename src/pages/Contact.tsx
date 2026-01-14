@@ -7,22 +7,22 @@ const contactLinks = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'vaibhavjonwal@gmail.com',
-    href: 'mailto:vaibhavjonwal@gmail.com',
+    value: 'vaibhavkumarjonwal@gmail.com',
+    href: 'mailto:vaibhavkumarjonwal@gmail.com',
     description: 'Drop me a line anytime',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/vaibhavjonwal',
-    href: 'https://linkedin.com/in/vaibhavjonwal',
+    value: 'https://www.linkedin.com/in/vaibhav-jonwal-758a1927b',
+    href: 'https://www.linkedin.com/in/vaibhav-jonwal-758a1927b/',
     description: 'Connect professionally',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/vaibhavjonwal',
-    href: 'https://github.com/vaibhavjonwal',
+    value: 'https://github.com/vaibhavkumarjonwal',
+    href: 'https://github.com/vaibhavkumarjonwal',
     description: 'Check out my code',
   },
 ];
@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Vaibhav Kumar Jonwal - Game Developer</title>
+        <title>Contact | Vaibhav Kumar Jonwal</title>
         <meta name="description" content="Get in touch with Vaibhav Kumar Jonwal for game development, AR/VR projects, or collaboration opportunities." />
       </Helmet>
 

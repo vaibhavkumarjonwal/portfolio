@@ -47,7 +47,7 @@ const HeroSection = () => {
               {/* Title */}
               <p className="text-base md:text-lg text-muted-foreground mb-6 opacity-0 animate-fade-in-up delay-200 font-mono">
                 Game Developer <span className="text-primary">•</span> AR/VR Developer{' '}
-                <span className="text-primary">•</span> Game Designer
+                <span className="text-primary">•</span> Designer
               </p>
 
               {/* Tagline */}

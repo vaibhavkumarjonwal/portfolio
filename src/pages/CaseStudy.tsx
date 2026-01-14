@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Lightbulb, Target, Zap, TrendingUp, Shield, Users, MessageSquare, AlertTriangle, CheckCircle, ArrowRight } from 'lucide-react';
-import caseStudyImage from '@/assets/case-study-coc.png';
+import caseStudyImage from '@/assets/case-study-coc.jpg';
 
 const CaseStudy = () => {
   return (
@@ -199,7 +199,7 @@ const CaseStudy = () => {
                       </p>
                       <div className="flex items-center gap-2 text-sm text-accent">
                         <ArrowRight className="w-4 h-4" />
-                        <span>90% faster response to violations</span>
+                        <span>Faster response to violations</span>
                       </div>
                     </div>
 
@@ -247,13 +247,13 @@ const CaseStudy = () => {
                   <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 glow-box">
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                       {[
-                        { label: 'Toxicity Reduction', value: '80%' },
-                        { label: 'Player Retention', value: '+25%' },
-                        { label: 'Moderation Costs', value: '-60%' },
-                        { label: 'Community Health', value: 'A+' },
+                        { label: 'Toxicity Reduction'/*, value: '80%'*/ },
+                        { label: 'Player Retention', /*value: '+25%' */},
+                        { label: 'Moderation Costs',/* value: '-60%' */},
+                        { label: 'Community Health', /*value: 'A+'*/ },
                       ].map((stat) => (
                         <div key={stat.label} className="text-center">
-                          <p className="text-3xl md:text-4xl font-bold gradient-text mb-2">{stat.value}</p>
+                          {/* <p className="text-3xl md:text-4xl font-bold gradient-text mb-2">{stat.value}</p> */}
                           <p className="text-sm text-muted-foreground">{stat.label}</p>
                         </div>
                       ))}

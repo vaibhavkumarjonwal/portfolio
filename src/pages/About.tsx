@@ -41,7 +41,7 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About | Vaibhav Kumar Jonwal - Game Developer</title>
+        <title>About | Vaibhav Kumar Jonwal</title>
         <meta name="description" content="Learn about Vaibhav Kumar Jonwal, a Game Developer and AR/VR Designer with expertise in Unreal Engine, Unity, and immersive technologies." />
       </Helmet>
 
@@ -83,7 +83,7 @@ const About = () => {
                       <p className="text-foreground/90 leading-relaxed">
                         Computer Science undergraduate at{' '}
                         <span className="text-primary font-medium">IIIT Vadodara</span> with a 
-                        strong passion for game development, AR/VR, and immersive technologies.
+                        strong passion for Product, UI/UX, game development, AR/VR, and immersive technologies.
                       </p>
                       <p className="text-muted-foreground leading-relaxed">
                         I specialize in building interactive experiences using Unreal Engine, Unity, 
@@ -91,6 +91,9 @@ const About = () => {
                         and leveraging emerging technologies to create meaningful digital interactions.
                       </p>
                       <p className="text-muted-foreground leading-relaxed">
+                        Beyond development, I'm passionate about product design and management—understanding 
+                user needs, crafting intuitive interfaces, and driving product strategy from 
+                ideation to launch.
                         With a foundation in both technical development and design thinking, 
                         I bridge the gap between creative vision and technical implementation.
                       </p>
@@ -123,8 +126,8 @@ const About = () => {
                   <div className="p-6 rounded-2xl glass-card card-hover text-center">
                     <Sparkles className="w-8 h-8 text-primary mx-auto mb-3" />
                     <p className="text-sm text-muted-foreground mb-1">Interests</p>
-                    <p className="font-semibold">Player Psychology</p>
-                    <p className="text-sm text-muted-foreground">System Design</p>
+                    <p className="font-semibold">Product Design</p>
+                    <p className="text-sm text-muted-foreground">Product Management</p>
                   </div>
                 </div>
               </div>

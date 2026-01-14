@@ -26,7 +26,9 @@ const AboutSection = () => {
                 and leveraging emerging technologies to create meaningful digital interactions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                With a foundation in both technical development and design thinking, 
+                Beyond development, I'm passionate about product design and management—understanding 
+                user needs, crafting intuitive interfaces, and driving product strategy from 
+                ideation to launch. With a foundation in both technical development and design thinking, 
                 I bridge the gap between creative vision and technical implementation.
               </p>
             </div>
@@ -49,7 +51,7 @@ const AboutSection = () => {
               <div className="p-4 rounded-xl bg-card border border-border card-hover">
                 <Sparkles className="w-5 h-5 text-primary mb-2" />
                 <p className="text-sm text-muted-foreground">Interests</p>
-                <p className="font-medium">Player Psychology</p>
+                <p className="font-medium">Player </p>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Footer = () => {
 
             {/* Built with */}
             <p className="text-sm text-muted-foreground font-mono">
-              Built with ❤️ for immersive experiences
+              Built for immersive experiences
             </p>
           </div>
         </div>

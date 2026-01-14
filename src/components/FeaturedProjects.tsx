@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Glasses, Music, ShoppingBag } from 'lucide-react';
+import { ArrowRight, Figma, Glasses, Music, Palette } from 'lucide-react';
 import projectVrPiano from '@/assets/project-vr-piano.png';
 import projectVrCampus from '@/assets/project-vr-campus.png';
-import projectVrShop from '@/assets/project-vr-shop.png';
+import figma from '@/assets/figma.png';
 
 const featuredProjects = [
   {
@@ -11,6 +11,7 @@ const featuredProjects = [
     tech: ['Unreal Engine', 'Blender', 'VR'],
     icon: Music,
     image: projectVrPiano,
+    link: 'https://www.linkedin.com/posts/vaibhav-jonwal-758a1927b_unrealengine-virtualreality-metaverse-activity-7345578378202075136-BNKA',
   },
   {
     title: 'VR Campus Tour',
@@ -18,13 +19,15 @@ const featuredProjects = [
     tech: ['Unity', 'Blender', 'VR'],
     icon: Glasses,
     image: projectVrCampus,
+    link: 'https://iiitvadodara-eta.vercel.app/',
   },
   {
-    title: 'VR Shop',
-    description: 'E-commerce VR experience with voice chat and AI-driven product recommendations.',
-    tech: ['Unity', 'AI', 'Voice Chat'],
-    icon: ShoppingBag,
-    image: projectVrShop,
+    title: 'Product Design Portfolio',
+    description: 'UI/UX designs in Figma showcasing user-centered design principles and interactive prototypes.',
+    tech: ['Figma', 'UI/UX', 'Prototyping'],
+    icon: Palette,
+    image: figma,
+    link: 'https://www.figma.com/design/lJaMOShhwoJBCG6ybaSjaM/Portfolio-Projects?node-id=15-585&t=QcB4c0sgmPlpyx97-1',
   },
 ];
 
@@ -54,10 +57,12 @@ const FeaturedProjects = () => {
           {/* Projects Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredProjects.map((project, index) => (
-              <Link
+              <a
                 key={project.title}
-                to="/projects"
-                className="project-card group"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-card group block"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 {/* Image */}
@@ -95,7 +100,7 @@ const FeaturedProjects = () => {
                     ))}
                   </div>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
